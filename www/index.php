@@ -33,7 +33,7 @@
                                     <?php
                                     $link = mysqli_connect("mysql", "root", "tiger", null);
 
-/* check connection */
+				    /* check connection */
                                     if (mysqli_connect_errno()) {
                                         printf("MySQL connecttion failed: %s", mysqli_connect_error());
                                     } else {
@@ -52,9 +52,9 @@
                         <hr>
                         <div class="content">
                             <ul>
-                                <li><a href="http://localhost/phpinfo.php">phpinfo()</a></li>
-                                <li><a href="http://localhost:8080">phpMyAdmin</a></li>
-                                <li><a href="http://localhost/test_db.php">Test DB Connection</a></li>
+                                <li><a href="phpinfo.php">phpinfo()</a></li>
+                                <li><a href="http://192.168.5.138:8080">phpMyAdmin</a></li>
+                                <li><a href="test_db.php">Test DB Connection</a></li>
                             </ul>
                         </div>
                     </div>
